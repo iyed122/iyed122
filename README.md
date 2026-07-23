@@ -2,9 +2,9 @@
 <h3 align="center">AI / Machine-Learning Engineer · LLMs · Retrieval-Augmented Generation · MLOps</h3>
 
 <p align="center">
+  <a href="https://iyed122.github.io"><img src="https://img.shields.io/badge/Portfolio-14B8A6?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/iyed-mediouni-673955219/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=iyedmediouni122@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.figma.com/make/9bTwFzYTAtuycylKP47fMB/Portfolio-Layout-Design?p=f&t=MnS7clUMyOhVHigr-0"><img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 </p>
 
 ---
@@ -15,7 +15,8 @@
 - 💼 AI Engineer Intern at **TELNET Holding**, where I built a production-grade **Graph-RAG assistant with a self-improving evaluation loop**.
 - 🔭 I focus on **LLM applications**: retrieval-augmented generation, agentic systems, and model **evaluation & fine-tuning** (QLoRA / DPO).
 - 🧰 I like systems that **measure themselves** — reliable, observable and fully reproducible (Docker, MLflow).
-- 🌍 Bilingual 🇬🇧 / 🇫🇷 — always happy to talk about RAG, knowledge graphs and LLM evaluation.
+- 🌍 Trilingual 🇹🇳 / 🇫🇷 / 🇬🇧 — always happy to talk about RAG, knowledge graphs and LLM evaluation.
+- 📄 **Portfolio → [iyed122.github.io](https://iyed122.github.io)**
 
 ---
 
@@ -34,6 +35,7 @@
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF5A36?style=for-the-badge&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![RAGAS](https://img.shields.io/badge/RAGAS-6E56CF?style=for-the-badge&logoColor=white)
 ![QLoRA%20%2F%20DPO](https://img.shields.io/badge/QLoRA%20%2F%20DPO-FF6F61?style=for-the-badge&logoColor=white)
@@ -56,18 +58,30 @@
 
 ---
 
-### 📌 Featured Project
+### 📌 Featured Projects
 
 #### 🤖 [AI Assistant — Graph-RAG & Self-Improving Evaluation](https://github.com/iyed122/ai-assistant)
 
 A **fully local enterprise assistant** over a Neo4j knowledge graph of ~1.28 M document chunks. It combines:
 
 - **Hybrid Graph-RAG** — vector search + multi-hop traversal of typed relationships, so an answer carries the chain of tickets and docs behind it.
-- **A concurrent LangGraph agent** — routes each query between indexed knowledge and live APIs, dispatching calls in parallel (2.4× latency reduction).
+- **A LangGraph agent** — routes each query between indexed knowledge and live GitLab/Jira/Confluence APIs, with parallel dispatch (2.4× latency reduction).
 - **"Hammer" evaluation loop** — scores every answer (quality × failure-type), then feeds a **gated QLoRA / DPO** fine-tuning pipeline. The system measures and improves itself.
 - 🔒 100 % on-premise, running on a single **6 GB consumer GPU**.
 
 `Python` · `LangGraph` · `Neo4j` · `Ollama` · `RAGAS` · `QLoRA/DPO` · `MLflow` · `FastAPI` · `Docker`
+
+#### 🚗 [Autonomous Perception & Planning (ADAS)](https://github.com/iyed122/autonomous-vehicule-VLM)
+
+An end-to-end self-driving **perceive → predict → decide** stack on the nuScenes dataset: a YOLOv8 detector, a custom **BEV LiDAR trajectory planner**, and a fusion layer that emits a **CLEAR / CAUTION / BRAKE** decision with distance & time-to-collision. A local **VLM (Qwen2.5-VL)** reasons over the 6-camera surround + BEV to flag open-vocabulary hazards. Trained on ~200 GB on AWS SageMaker; runs locally as a Streamlit app.
+
+`PyTorch` · `YOLOv8` · `AWS SageMaker` · `Open3D` · `Qwen2.5-VL` · `Streamlit`
+
+#### 🐦 [AI Twitter Content Crew](https://github.com/iyed122/automated-twitter-content)
+
+An autonomous **CrewAI** multi-agent pipeline (**LLaMA-3.3-70B** via Groq): specialised agents discover trending topics, research them across the open web, and write five publish-ready tweets — then post to X via the API.
+
+`CrewAI` · `Groq` · `LLaMA-3.3-70B` · `Tweepy` · `pytrends`
 
 ---
 
