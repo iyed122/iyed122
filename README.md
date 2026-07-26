@@ -39,6 +39,11 @@
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![RAGAS](https://img.shields.io/badge/RAGAS-6E56CF?style=for-the-badge&logoColor=white)
 ![QLoRA%20%2F%20DPO](https://img.shields.io/badge/QLoRA%20%2F%20DPO-FF6F61?style=for-the-badge&logoColor=white)
+![sentence-transformers](https://img.shields.io/badge/sentence--transformers-2E8B99?style=for-the-badge&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge&logoColor=white)
 
 **Data & Retrieval**
 
@@ -46,6 +51,8 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)
 ![Vector%20Search](https://img.shields.io/badge/Vector%20Search%20(HNSW)-334155?style=for-the-badge&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white)
 
 **MLOps & Infrastructure**
 
@@ -55,6 +62,8 @@
 ![AWS](https://img.shields.io/badge/AWS%20SageMaker-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Git LFS](https://img.shields.io/badge/Git%20LFS-F64935?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
@@ -82,19 +91,6 @@ An end-to-end self-driving **perceive → predict → decide** stack on the nuSc
 An autonomous **CrewAI** multi-agent pipeline (**LLaMA-3.3-70B** via Groq): specialised agents discover trending topics, research them across the open web, and write five publish-ready tweets — then post to X via the API.
 
 `CrewAI` · `Groq` · `LLaMA-3.3-70B` · `Tweepy` · `pytrends`
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=iyed122&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iyed122&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iyed122&hide_border=true&theme=tokyonight" alt="GitHub streak"/>
-</p>
 
 ---
 
