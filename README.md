@@ -11,11 +11,12 @@
 
 ### 🧠 About me
 
-- 🎓 AI-engineering student at **TEK-UP University** — graduating 2026.
-- 💼 AI Engineer Intern at **TELNET Holding**, where I built a production-grade **Graph-RAG assistant with a self-improving evaluation loop**.
+- 🎓 **Engineering degree (Dipl. d'Ingénieur), Data Science & AI** — TEK-UP University, graduated **July 2026**.
+- 💼 During my end-of-studies internship at **TELNET Holding** I built a production **Graph-RAG assistant with a self-improving evaluation loop** — **TELNET went on to sell the product to a client**.
 - 🔭 I focus on **LLM applications**: retrieval-augmented generation, agentic systems, and model **evaluation & fine-tuning** (QLoRA / DPO).
 - 🧰 I like systems that **measure themselves** — reliable, observable and fully reproducible (Docker, MLflow).
 - 🌍 Trilingual 🇹🇳 / 🇫🇷 / 🇬🇧 — always happy to talk about RAG, knowledge graphs and LLM evaluation.
+- 📬 **Available immediately** — open to roles across the **EU, Canada and the Gulf**, and to remote work: I'm in Tunisia, **UTC+1, the same working day as Paris, Berlin & Madrid**.
 - 📄 **Portfolio → [iyed122.github.io](https://iyed122.github.io)**
 
 ---
@@ -77,6 +78,7 @@ A **fully local enterprise assistant** over a Neo4j knowledge graph of ~1.28 M d
 - **A LangGraph agent** — routes each query between indexed knowledge and live GitLab/Jira/Confluence APIs, with parallel dispatch (2.4× latency reduction).
 - **"Hammer" evaluation loop** — scores every answer (quality × failure-type), then feeds a **gated QLoRA / DPO** fine-tuning pipeline. The system measures and improves itself.
 - 🔒 100 % on-premise, running on a single **6 GB consumer GPU**.
+- 💰 **Delivered to production and sold by TELNET to a client** — commercial software, not a prototype.
 
 `Python` · `LangGraph` · `Neo4j` · `Ollama` · `RAGAS` · `QLoRA/DPO` · `MLflow` · `FastAPI` · `Docker`
 
