@@ -69,7 +69,7 @@
 
 ### 📌 Featured Projects
 
-#### 🤖 [AI Assistant — Graph-RAG & Self-Improving Evaluation](https://github.com/iyed122/ai-assistant)
+#### 🤖 [AI Assistant — Graph-RAG & Self-Improving Evaluation](https://iyed122.github.io/#case)
 
 A **fully local enterprise assistant** over a Neo4j knowledge graph of ~1.28 M document chunks. It combines:
 
