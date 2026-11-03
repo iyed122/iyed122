@@ -82,11 +82,11 @@ A **fully local enterprise assistant** over a Neo4j knowledge graph of ~1.28 M d
 
 `Python` · `LangGraph` · `Neo4j` · `Ollama` · `RAGAS` · `QLoRA/DPO` · `MLflow` · `FastAPI` · `Docker`
 
-#### 🚗 [Driving-Risk Review: Autonomous-Vehicle Perception & Planning](https://github.com/iyed122/autonomous-vehicule-VLM)
+#### 🚗 [Driving-Risk Review: Autonomous-Vehicle Perception & Trajectory Prediction](https://github.com/iyed122/autonomous-vehicule-VLM)
 
-Which moments of recorded driving should a safety manager actually watch? LiDAR scans become top-down maps, speed is measured by aligning consecutive scans, and a NumPy risk layer checks the lane ahead: **CLEAR / CAUTION / BRAKE** with the gap and time-to-collision. A fleet review scores every drive and queues only the close calls: **9 moments, 2% of 28 minutes** of real driving, each with a note from a local language model (Ollama). Models trained on ~200 GB of nuScenes on AWS SageMaker: a **BEV trajectory planner** (evaluated against real motion) and a YOLOv8 detector.
+Which moments of recorded driving should a safety manager actually watch? A **bird's-eye-view trajectory planner** trained on ~200 GB of nuScenes on AWS SageMaker reads each LiDAR scan and, with the car's motion measured from consecutive scans, predicts its next 5.5 s; on held-out drives it beats every physics baseline (best of 3 paths: 2.94 m vs 3.99 m). A NumPy risk layer checks that path (**CLEAR / CAUTION / BRAKE**, gap, time-to-collision) and a fleet review queues only the close calls: **10 moments, 3% of 28 minutes** of real driving, each with a note from a local language model.
 
-`PyTorch` · `YOLOv8` · `AWS SageMaker` · `NumPy` · `Ollama` · `Streamlit`
+`PyTorch` · `AWS SageMaker` · `nuScenes` · `LiDAR` · `YOLOv8` · `NumPy` · `Ollama`
 
 #### 🐦 [AI Twitter Content Crew](https://github.com/iyed122/automated-twitter-content)
 
