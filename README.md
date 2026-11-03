@@ -82,11 +82,11 @@ A **fully local enterprise assistant** over a Neo4j knowledge graph of ~1.28 M d
 
 `Python` · `LangGraph` · `Neo4j` · `Ollama` · `RAGAS` · `QLoRA/DPO` · `MLflow` · `FastAPI` · `Docker`
 
-#### 🚗 [Autonomous Perception & Planning (ADAS)](https://github.com/iyed122/autonomous-vehicule-VLM)
+#### 🚗 [Driving-Risk Review: Autonomous-Vehicle Perception & Planning](https://github.com/iyed122/autonomous-vehicule-VLM)
 
-An end-to-end self-driving **perceive → predict → decide** stack on the nuScenes dataset: a YOLOv8 detector, a custom **BEV LiDAR trajectory planner**, and a fusion layer that emits a **CLEAR / CAUTION / BRAKE** decision with distance & time-to-collision. A local **VLM (Qwen2.5-VL)** reasons over the 6-camera surround + BEV to flag open-vocabulary hazards. Trained on ~200 GB on AWS SageMaker; runs locally as a Streamlit app.
+Which moments of recorded driving should a safety manager actually watch? LiDAR scans become top-down maps, speed is measured by aligning consecutive scans, and a NumPy risk layer checks the lane ahead: **CLEAR / CAUTION / BRAKE** with the gap and time-to-collision. A fleet review scores every drive and queues only the close calls: **9 moments, 2% of 28 minutes** of real driving, each with a note from a local language model (Ollama). Models trained on ~200 GB of nuScenes on AWS SageMaker: a **BEV trajectory planner** (evaluated against real motion) and a YOLOv8 detector.
 
-`PyTorch` · `YOLOv8` · `AWS SageMaker` · `Open3D` · `Qwen2.5-VL` · `Streamlit`
+`PyTorch` · `YOLOv8` · `AWS SageMaker` · `NumPy` · `Ollama` · `Streamlit`
 
 #### 🐦 [AI Twitter Content Crew](https://github.com/iyed122/automated-twitter-content)
 
